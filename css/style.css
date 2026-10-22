@@ -8,4 +8,5 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lucida Fax', 'Lucida Bright', Georgia, serif;
+    background-color: var(--color-light);
 }
