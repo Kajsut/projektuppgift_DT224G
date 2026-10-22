@@ -11,7 +11,7 @@
     background-color: var(--color-light);
 }
 
-
+/*Hur headern ser ut*/
 header {
     display: flex;
     flex-direction: row;
@@ -28,6 +28,8 @@ header {
     display: none;
     width: 100%;
 }
+
+/*Menyn i headen öppnas när klassen open läggs till*/
 .menu.open{
     display: block;
 }
