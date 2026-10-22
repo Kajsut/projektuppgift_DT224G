@@ -15,10 +15,12 @@
 header {
     display: flex;
     flex-direction: row;
+    margin: 1rem;
 }
 
 .logo-name {
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
