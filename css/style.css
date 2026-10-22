@@ -10,3 +10,15 @@
     font-family: 'Lucida Fax', 'Lucida Bright', Georgia, serif;
     background-color: var(--color-light);
 }
+
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
