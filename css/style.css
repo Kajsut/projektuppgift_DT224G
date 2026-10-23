@@ -94,11 +94,6 @@ header {
 
 
 
-
-
-
-
-
 /*GRÖN SEKTION*/
 /*Alla element som nämns får grön bakgrundsfärg*/
 .our-bees,
@@ -153,6 +148,7 @@ header {
     margin-inline: auto;    
 
 }
+
 /*Fixar utseendet på slide-knapparna*/
 .slide-controls button {
     border: none;
@@ -169,6 +165,7 @@ header {
     gap: 1rem;
     margin-bottom: 2rem;
 }
+
 /*Placerar countern*/
 .slidecounter {
     margin: 0;
@@ -234,6 +231,7 @@ header {
     resize: vertical;
 }
 
+/*Knappen i formuläret*/
 .form button {
     /*Hur knappen ser ut*/
     background-color: var(--button);
@@ -241,7 +239,7 @@ header {
     font-size: 1rem;
     border-radius: 10px;
     padding: 0.5rem 1rem 0.5rem;
-    /*Vart knappen ligger på sidan*/
+    /*Vart knappen ligger på hemsidan*/
     display: block;
     margin: auto 1rem 1rem auto;
 }
@@ -249,6 +247,8 @@ header {
 .form button:hover {
     background-color: var(--button-hover);
 }
+
+
 
 /*FOOTERN*/
 /*Väljer bakgrunds- och textfärg på footern*/
@@ -277,14 +277,14 @@ footer img {
     width: 6rem;
 }
 
-/*Centerar och väljer storlek på mediaknapparna*/
+/*Centerar och bestämmer storlek på mediaknapparna*/
 .media {
     text-align: center;
     font-size: 2rem;
     padding-bottom: 1rem;
 }
 
-/*Hur mycket margin olika element har*/
+/*Hur mycket margin de olika element har*/
 footer h3 {
     margin-bottom: 0.5rem;
 }
