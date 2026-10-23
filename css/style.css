@@ -212,6 +212,15 @@ header {
 }
 
 
+/*MAIL-FORMULÄRET*/
+
+.form {
+    border: 5px solid var(--background-green);
+    border-radius: 10px;
+    margin: 2rem;
+    max-width: 400px;
+}
+
 
 
 
