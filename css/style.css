@@ -11,6 +11,33 @@
     background-color: var(--color-light);
 }
 
+
+/*ALLMÄNT för alla sidor*/
+/*Ingen bild går utanför sidan = ingen underscroll*/
+img {
+    max-width: 100%;
+}
+
+main p,
+main h2,
+main h1 {
+    color: var(--textcolor-dark);
+}
+
+/*Centerar och fixar margin för rubrikerna*/
+h1, h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+p {
+    text-align: center;
+    margin: 1rem 2.5rem 2rem 2.5rem;
+}
+
+
+
+/*HEADEN*/
 /*Hur headern ser ut*/
 header {
     display: flex;
@@ -63,30 +90,14 @@ header {
     text-decoration: underline;
 }
 
-/*Ingen bild går utanför sidan = ingen underscroll*/
-img {
-    max-width: 100%;
-}
-
-main p,
-main h2,
-main h1 {
-    color: var(--textcolor-dark);
-}
-
-/*Centerar och fixar margin för rubrikerna*/
-h1, h2 {
-    text-align: center;
-    margin: 1rem;
-}
-
-p {
-    text-align: center;
-    margin: 1rem 2.5rem 2rem 2.5rem;
-}
 
 
 
+
+
+
+
+/*GRÖN SEKTION*/
 /*Alla element som nämns får grön bakgrundsfärg*/
 .our-bees,
 .our-bees *,
@@ -129,6 +140,8 @@ p {
 }
 
 
+
+/*BILDSPELET index.html*/
 /*Fixar så bilderna på bildspelet ser bra ut*/
 .slideshow {
     height: 400px;
@@ -164,6 +177,7 @@ p {
 
 
 
+/*FOOTERN*/
 /*Väljer bakgrunds- och textfärg på footern*/
 footer * {
     background-color: var(--background-green);
