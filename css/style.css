@@ -185,12 +185,13 @@ header {
     border-radius: 10px;
     margin: auto 3rem 3rem;
     max-width: 400px;
+    padding: 0 0 2rem;
 }
 
 .customer a {
     background-color: var(--button);
     color: var(--textcolor-dark);
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem 1rem;
     border-radius: 10px;
     text-decoration: none;
 }
