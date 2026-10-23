@@ -104,6 +104,10 @@ p {
     color: var(--color-light);
 }
 
+.save-bees h2 {
+    color: var(--color-light);
+}
+
 /*Får texten och bilderna lika stora under varandra*/
 .save-bees p,
 .save-bees img {
