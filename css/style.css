@@ -234,7 +234,21 @@ header {
     resize: vertical;
 }
 
+.form button {
+    /*Hur knappen ser ut*/
+    background-color: var(--button);
+    border: 1px solid var(--textcolor-dark);
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem 1rem 0.5rem;
+    /*Vart knappen ligger på sidan*/
+    display: block;
+    margin: auto 1rem 1rem auto;
+}
 
+.form button:hover {
+    background-color: var(--button-hover);
+}
 
 /*FOOTERN*/
 /*Väljer bakgrunds- och textfärg på footern*/
