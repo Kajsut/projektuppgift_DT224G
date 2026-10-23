@@ -157,9 +157,11 @@ footer * {
     color: var(--color-light)
 }
 
+/*Hur allt i footern ligger*/
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--background-green);
+    padding: 2rem;
 }
