@@ -120,8 +120,10 @@ p {
 
 /*Fixar så bildspelet ser bra ut*/
 .slideshow {
-    object-fit: contain;
     height: 400px;
     border-radius: 25px;
+    object-fit: contain;
+    display: block;
+    margin-inline: auto;    
 
 }
