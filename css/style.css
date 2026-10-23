@@ -77,3 +77,16 @@ p {
     text-align: center;
     margin: auto 1.5rem;
 }
+
+/**/
+.save-bees {
+
+
+}
+
+.save-bees img {
+    max-width: 70%;
+    display: block;
+    margin-inline: auto;
+    
+}
