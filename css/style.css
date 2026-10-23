@@ -85,6 +85,10 @@ p {
 
 }
 
+.save-bees {
+    padding: 1rem;
+}
+
 .save-bees img {
     max-width: 70%;
     display: block;
