@@ -37,7 +37,9 @@ p {
     margin: 1rem 2.5rem 2rem 2.5rem;
 }
 
-
+hr {
+    border-color: var(--textcolor-dark);
+}
 
 /*HEADEN*/
 /*Hur headern ser ut*/
