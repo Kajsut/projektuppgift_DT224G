@@ -149,3 +149,10 @@ p {
     transform: translateY(3px); /*Flyttar enbart texten utan att flytta
                                    de andra elementen i samma flexbox.*/
 }
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
