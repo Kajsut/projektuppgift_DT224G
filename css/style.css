@@ -62,6 +62,7 @@ header {
 .menu a:hover {
     text-decoration: underline;
 }
+
 /*Ingen bild går utanför sidan = ingen underscroll*/
 img {
     max-width: 100%;
@@ -114,6 +115,13 @@ p {
     max-width: 75%;
     display: block;
     margin-inline: auto;
-  ;
+  
 }
 
+/*Fixar så bildspelet ser bra ut*/
+.slideshow {
+    object-fit: contain;
+    height: 400px;
+    border-radius: 25px;
+
+}
