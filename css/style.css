@@ -67,6 +67,12 @@ img {
     max-width: 100%;
 }
 
+main p,
+main h2,
+main h1 {
+    color: var(--textcolor-dark);
+}
+
 /*Centerar och fixar margin för rubrikerna*/
 h1, h2 {
     text-align: center;
