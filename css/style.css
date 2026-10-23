@@ -181,6 +181,8 @@ header {
 .customer {
     border: 2px solid var(--background-green);
     border-radius: 10px;
+    margin: auto 3rem 3rem;
+    max-width: 400px;
 }
 
 
