@@ -180,6 +180,7 @@ header {
 
 
 /*VÅRA KUNDER*/
+/*Lägger bland annat till en ram runt en kund*/
 .customer {
     border: 2px solid var(--background-green);
     border-radius: 10px;
@@ -188,6 +189,14 @@ header {
     padding: 0 0 2rem;
 }
 
+/*Regler om hur knapparna vid kunden sitter*/
+.customer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/*Hur knapparna vid kunden ser ut*/
 .customer a {
     background-color: var(--button);
     color: var(--textcolor-dark);
@@ -196,16 +205,14 @@ header {
     text-decoration: none;
 }
 
+/*Om man håller musen över knapparna vid kunden*/
 .customer a:hover {
     text-decoration: underline;
     background-color: var(--button-hover);
 }
 
-.customer-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
+
+
 
 
 /*FOOTERN*/
