@@ -62,7 +62,13 @@ header {
 .menu a:hover {
     text-decoration: underline;
 }
-
+/*Ingen bild går utanför sidan = ingen underscroll*/
 img {
     max-width: 100%;
+}
+
+/*Centerar och fixar margin för rubrikerna*/
+h1, h2 {
+    text-align: center;
+    margin: 1rem;
 }
