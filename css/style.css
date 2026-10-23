@@ -201,6 +201,11 @@ header {
     background-color: var(--button-hover);
 }
 
+.customer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
 
 
 /*FOOTERN*/
