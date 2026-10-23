@@ -151,8 +151,15 @@ p {
 }
 
 
+/*Väljer bakgrunds- och textfärg på footern*/
+footer * {
+    background-color: var(--background-green);
+    color: var(--color-light)
+}
+
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--background-green);
 }
