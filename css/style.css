@@ -55,3 +55,7 @@ header {
     text-decoration: none;
     color: var(--textcolor-dark);
 }
+
+.menu a:hover {
+    text-decoration: underline;
+}
