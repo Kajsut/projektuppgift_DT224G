@@ -152,6 +152,7 @@ p {
 }
 
 
+
 /*Väljer bakgrunds- och textfärg på footern*/
 footer * {
     background-color: var(--background-green);
@@ -167,6 +168,12 @@ footer {
     padding: 2rem;
 }
 
+.links,
+.links h3,
+.contact {
+    text-align: center;
+}
+
 /*Storleken på loggan*/
 footer img {
     width: 6rem;
@@ -178,6 +185,8 @@ footer img {
     font-size: 2rem;
     padding-bottom: 1rem;
 }
+
+/*Hur mycket margin olika element har*/
 footer h3 {
     margin-bottom: 0.5rem;
 }
@@ -185,23 +194,19 @@ footer h3 {
     margin-top: 0.5rem;
 }
 
-.links,
-.links h3,
-.contact {
-    text-align: center;
-}
-
 .links a {
     margin-right: 2.3rem;
-}
-
-footer ul {
-    list-style: none;
 }
 
 footer li {
     margin-bottom: 0.3rem;
 }
+
+/*Blir bara stäck under länkarna när man håller över den med musen*/
+footer ul {
+    list-style: none;
+}
+
 footer a {
     text-decoration: none;
 }
