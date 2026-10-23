@@ -178,9 +178,14 @@ footer img {
     font-size: 2rem;
     padding-bottom: 1rem;
 }
-
+.links,
+.links h3,
 .contact {
     text-align: center;
+}
+
+.links a {
+    margin-right: 2rem;
 }
 
 footer ul {
@@ -188,7 +193,7 @@ footer ul {
 }
 
 footer a {
-    text-decoration: none;
+    text-decoration: none;;
 }
 
 footer a:hover {
