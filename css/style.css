@@ -72,3 +72,8 @@ h1, h2 {
     text-align: center;
     margin: 1rem;
 }
+
+p {
+    text-align: center;
+    margin: auto 1.5rem;
+}
