@@ -87,12 +87,19 @@ p {
 
 .save-bees {
     padding: 1rem;
+    color: var(--color-light);
 }
 
+/*Får texten och bilderna lika stora under varandra*/
 .save-bees p,
 .save-bees img {
     max-width: 75%;
     display: block;
     margin-inline: auto;
-    
+  ;
+}
+
+.save-bees p {
+    padding: 1rem 0 3rem 0;
+    color: var(--color-light);
 }
