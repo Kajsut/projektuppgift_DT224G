@@ -33,6 +33,13 @@ header {
 }
 
 /*Menyn i headen öppnas när klassen open läggs till*/
-.menu.open{
+.menu.open {
     display: block;
+}
+
+/*Hur menyknappen ser ut*/
+.menu-button {
+    border: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
