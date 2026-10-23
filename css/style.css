@@ -78,15 +78,23 @@ p {
     margin: auto 1.5rem;
 }
 
-/*Alla element inuti articeln får grön bakgrundsfärg*/
+
+
+/*Alla element inuti articel save-bees får grön bakgrundsfärg*/
 .save-bees,
 .save-bees * {
     background-color: var(--background-green);
 
 }
 
+/*Ändrar textfärgen och paddings*/
 .save-bees {
     padding: 1rem;
+    color: var(--color-light);
+}
+
+.save-bees p {
+    padding: 1rem 0 3rem 0;
     color: var(--color-light);
 }
 
@@ -99,7 +107,3 @@ p {
   ;
 }
 
-.save-bees p {
-    padding: 1rem 0 3rem 0;
-    color: var(--color-light);
-}
