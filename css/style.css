@@ -158,7 +158,7 @@ footer * {
     color: var(--color-light)
 }
 
-/*Hur allt i footern ligger*/
+/*Allt i footern ligger centerat på skärmen*/
 footer {
     display: flex;
     flex-direction: column;
@@ -167,10 +167,12 @@ footer {
     padding: 2rem;
 }
 
+/*Storleken på loggan*/
 footer img {
     width: 6rem;
 }
 
+/*Centerar och väljer storlek på mediaknapparna*/
 .media {
     text-align: center;
     font-size: 2rem;
@@ -179,4 +181,12 @@ footer img {
 
 .contact {
     text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
 }
