@@ -54,9 +54,9 @@ header {
 .menu a {
     text-decoration: none;
     color: var(--textcolor-dark);
-    display: block;
+    display: inline-block;
     padding-bottom: 0.5rem;
-    
+
 }
 
 .menu a:hover {
