@@ -227,6 +227,11 @@ header {
     margin: auto auto 1rem 2rem;
 }
 
+.form textarea {
+    width: 80%;
+    min-height: 130px;
+    resize: vertical;
+}
 
 /*FOOTERN*/
 /*Väljer bakgrunds- och textfärg på footern*/
