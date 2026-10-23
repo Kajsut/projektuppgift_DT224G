@@ -87,7 +87,9 @@ p {
 
 
 
-/*Alla element inuti articel save-bees får grön bakgrundsfärg*/
+/*Alla element som nämns får grön bakgrundsfärg*/
+.our-bees,
+.our-bees *,
 .save-bees,
 .save-bees * {
     background-color: var(--background-green);
@@ -95,21 +97,24 @@ p {
 }
 
 /*Ändrar textfärgen och paddings*/
+.our-bees,
 .save-bees {
     padding: 1rem;
     color: var(--color-light);
 }
-
+.our-bees p,
 .save-bees p {
     padding: 1rem 0 3rem 0;
     color: var(--color-light);
 }
-
+.our-bees h2,
 .save-bees h2 {
     color: var(--color-light);
 }
 
 /*Får texten och bilderna lika stora under varandra*/
+.our-bees p,
+.our-bees img,
 .save-bees p,
 .save-bees img {
     max-width: 75%;
@@ -117,6 +122,8 @@ p {
     margin-inline: auto;
   
 }
+
+
 
 /*Fixar så bilderna på bildspelet ser bra ut*/
 .slideshow {
