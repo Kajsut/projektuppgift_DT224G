@@ -177,6 +177,13 @@ header {
 
 
 
+/*VÅRA KUNDER*/
+.customer {
+    border: 2px solid var(--background-green);
+    border-radius: 10px;
+}
+
+
 /*FOOTERN*/
 /*Väljer bakgrunds- och textfärg på footern*/
 footer * {
