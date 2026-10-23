@@ -166,3 +166,17 @@ footer {
     background-color: var(--background-green);
     padding: 2rem;
 }
+
+footer img {
+    width: 6rem;
+}
+
+.media {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contact {
+    text-align: center;
+}
