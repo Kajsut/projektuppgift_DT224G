@@ -78,9 +78,10 @@ p {
     margin: auto 1.5rem;
 }
 
-/**/
-.save-bees {
-
+/*Alla element inuti articeln får grön bakgrundsfärg*/
+.save-bees,
+.save-bees * {
+    background-color: var(--background-green);
 
 }
 
