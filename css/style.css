@@ -183,10 +183,14 @@ footer img {
     text-align: center;
 }
 
+footer ul {
+    list-style: none;
+}
+
 footer a {
     text-decoration: none;
 }
 
-footer ul {
-    list-style: none;
+footer a:hover {
+    text-decoration: underline;
 }
