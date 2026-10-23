@@ -212,8 +212,8 @@ header {
 }
 
 
-/*MAIL-FORMULÄRET*/
 
+/*MAIL-FORMULÄRET*/
 .form {
     border: 5px solid var(--background-green);
     border-radius: 10px;
@@ -227,11 +227,14 @@ header {
     margin: auto auto 1rem 2rem;
 }
 
+/*Gör textrutan större*/
 .form textarea {
     width: 80%;
     min-height: 130px;
     resize: vertical;
 }
+
+
 
 /*FOOTERN*/
 /*Väljer bakgrunds- och textfärg på footern*/
