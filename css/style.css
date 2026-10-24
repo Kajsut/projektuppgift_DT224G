@@ -464,5 +464,18 @@ footer a:hover {
         flex-direction: row;
     }
 
-    /**/
+    /*Byter ordningen på diven i footern*/
+    .logo-media {
+        order: 2;
+    }
+
+    .contact {
+        order: 1;
+    }
+
+    .links {
+        order: 3;
+    }
+
+
 }
