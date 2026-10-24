@@ -317,3 +317,25 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+@media (min-width: 768px) {
+
+    /*Header*/
+    .menu-button {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        width: auto;
+    }
+
+    .menu ul {
+        display: flex;
+        gap: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+
+}
