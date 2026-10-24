@@ -322,19 +322,27 @@ footer a:hover {
 @media (min-width: 768px) {
 
     /*Header*/
+    /*Tar bort hamburgarmenyn*/
     .menu-button {
         display: none;
     }
-
+    
     .menu {
         display: block;
         width: auto;
     }
-
+    /*Visar menyn horizontellt*/
     .menu ul {
         display: flex;
         gap: 1.5rem;
         margin-right: 1.5rem;
+    }
+
+    /*Herobilden kapas när den blir för stor*/
+    .heroimg {
+        height: 590px;
+        width: 100%;
+        object-fit: cover;
     }
 
 
