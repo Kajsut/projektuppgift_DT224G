@@ -469,6 +469,35 @@ footer a:hover {
     }
 
 
+    /*VÅRA BIKUPOR*/
+    .our-bees article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .our-bees img {
+        max-width: 50%;
+        max-height: 500px;
+        border-radius: 10px;
+    }
+
+
+    /*VÅRA KUNDER*/
+    .customer {
+        max-width: 500px;
+    }
+
+    /*Så de lägger sig jämte varandra, i mitten och byter rad ifall det behövs*/
+    .customer-cards {
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+
+
     /*KONTAKTA OSS*/
     .contact-page {
         display: flex;
