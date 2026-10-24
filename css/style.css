@@ -354,6 +354,14 @@ footer a:hover {
         margin: 1rem auto 2.5rem;
     }
 
+    .card {
+        display: flex;
+        align-items: center;
+    }
 
+    .card p,
+    .card img {
+        width: 50%;
+    }
 
 }
