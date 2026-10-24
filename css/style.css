@@ -406,8 +406,45 @@ footer a:hover {
 
 
     /*BILDSPELET*/
+    /*Hur bilden ser ut*/
     .slideshow {
         height: 700px;
          border: 2px solid var(--background-green);
     }
+
+    /*Skapar en grid för att kunna förflytta knapparna rätt*/
+    .slide-img-controls {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        column-gap: 1rem; 
+    }
+
+    /*Bilden är i kolumn nummer två*/
+    .slideshow {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    /*Barbarnen innanför slide-controls blir istället direkta barn*/
+    .slide-controls {
+        display: contents;
+    }
+    /*Knapparnas kolumner*/
+    .prev-slide {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .next-slide {
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    /*Vart räknaren är*/
+    .slidecounter {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
 }
