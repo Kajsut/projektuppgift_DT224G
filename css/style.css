@@ -444,10 +444,11 @@ footer a:hover {
         margin-right: 15rem;
     }
 
-    /*Vart räknaren är*/
+    /*Vart räknaren placeras*/
     .slidecounter {
         grid-row: 2;
         grid-column: 2;
+        justify-self: center;
     }
 
     .slide-controls button {
