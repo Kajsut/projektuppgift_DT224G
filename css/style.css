@@ -230,6 +230,11 @@ header {
     margin: auto auto 1rem 2rem;
 }
 
+textarea,
+input {
+    border: 2px solid var(--textcolor-dark);
+}
+
 .form label {
     color: var(--textcolor-dark);
 }
@@ -502,25 +507,27 @@ footer a:hover {
     .contact-page {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-self: 
+    }
+
+    .contact-p-img {
         
     }
 
-    .form {
-        min-width: 400px;
-        max-width: 600px;
-    }
 
-    textarea,
-    input {
-        border: 2px solid var(--textcolor-dark);
+    .form {
+        min-width: 600px;
+        max-width: 600px;
     }
 
     .contact-img {
         border-radius: 50%;
-        width: 500px;
         height: 500px;
         object-fit: cover;
     }
+
+    
 
 
     /*FOOTERN*/
