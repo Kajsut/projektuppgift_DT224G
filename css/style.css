@@ -354,14 +354,52 @@ footer a:hover {
         margin: 1rem auto 2.5rem;
     }
 
+    /*GRÖN SECTION*/
     .card {
         display: flex;
         align-items: center;
+        margin-top: 2rem;
+        gap: 2rem;
     }
 
-    .card p,
+    .reverse {
+        flex-direction: row-reverse;
+        margin-top: 3rem;
+    }
+
     .card img {
+        border-radius: 10px;
+        max-width: 40%;
+    }
+
+    .card p {
+        max-width: 20rem;
         width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    /*Del av sidan - h2,img,p*/
+    .piece {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .piece-h2 {
+        padding: 2rem 0 1rem 0;
+    }
+    .piece img {
+        max-width: 40%;
+        border-radius: 10px;
+        border: 2px solid var(--background-green);
+        margin-bottom: 5rem;
+    }
+
+    .piece p {
+        margin-right: 10rem;
     }
 
 }
