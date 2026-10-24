@@ -410,6 +410,9 @@ footer a:hover {
 
     .piece p {
         margin-right: 10rem;
+        padding: 2rem 1rem;
+        border-radius: 10px;
+        border: 2px solid var(--textcolor-dark);
     }
 
 
