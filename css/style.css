@@ -456,4 +456,13 @@ footer a:hover {
     .slide-controls button {
         font-size: 7rem;
     }
+
+
+
+    /*FOOTERN*/
+    footer {
+        flex-direction: row;
+    }
+
+    /**/
 }
