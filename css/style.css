@@ -45,6 +45,12 @@ hr {
     border-color: var(--textcolor-dark);
 }
 
+.our-bees-hr {
+        border: none;
+        border-top: 2px dashed var(--color-light);
+        margin: 1rem 0;
+    }
+
 /*HEADEN*/
 /*Hur headern ser ut*/
 header {
@@ -487,6 +493,7 @@ footer a:hover {
         max-height: 500px;
         border-radius: 10px;
     }
+
 
 
     /*VÅRA KUNDER*/
