@@ -203,7 +203,7 @@ header {
 .customer a {
     background-color: var(--button);
     color: var(--textcolor-dark);
-    padding: 0.5rem 1rem 1rem;
+    padding: 1rem 1rem 1rem;
     border-radius: 10px;
     text-decoration: none;
 }
