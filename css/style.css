@@ -355,7 +355,7 @@ footer a:hover {
     }
 
     /*GRÖN SECTION*/
-    .card {
+  /*  .card {
         display: flex;
         align-items: center;
         margin-top: 2rem;
@@ -378,8 +378,32 @@ footer a:hover {
         text-align: center;
         margin: 0 auto;
     }
+*/
+    .save-bees h2 {
+        margin-bottom: 2rem;
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
 
+    .card img {
+        max-width: 40%;
+        border-radius: 10px;
+    }
+    
+    .card p {
+        max-width: 400px;
+    }
 
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    
     /*Del av sidan - h2,img,p*/
     .piece {
         display: flex;
