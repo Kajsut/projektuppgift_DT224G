@@ -462,6 +462,7 @@ footer a:hover {
     /*FOOTERN*/
     footer {
         flex-direction: row;
+        justify-content: space-around;
     }
 
     /*Byter ordningen på diven i footern*/
