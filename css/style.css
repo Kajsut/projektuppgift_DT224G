@@ -424,6 +424,7 @@ footer a:hover {
     .slideshow {
         grid-row: 1;
         grid-column: 2;
+        max-width: 100%;
     }
 
     /*Barbarnen innanför slide-controls blir istället direkta barn*/
@@ -434,11 +435,13 @@ footer a:hover {
     .prev-slide {
         grid-row: 1;
         grid-column: 1;
+        margin-left: 15rem;
     }
 
     .next-slide {
         grid-row: 1;
         grid-column: 3;
+        margin-right: 15rem;
     }
 
     /*Vart räknaren är*/
@@ -447,4 +450,7 @@ footer a:hover {
         grid-column: 2;
     }
 
+    .slide-controls button {
+        font-size: 7rem;
+    }
 }
