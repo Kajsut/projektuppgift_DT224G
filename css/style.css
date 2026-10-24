@@ -26,6 +26,10 @@ main h1 {
     color: var(--textcolor-dark);
 }
 
+main p{
+    font-size: 1.3rem;
+}
+
 /*Centerar och fixar margin för rubrikerna*/
 h1, h2 {
     text-align: center;
