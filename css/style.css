@@ -36,6 +36,7 @@ h1, h2 {
     margin: 1rem;
 }
 
+
 p {
     text-align: center;
     margin: 1rem 2.5rem 2rem 2.5rem;
@@ -382,19 +383,21 @@ footer a:hover {
     .card {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         align-items: center;
         margin-bottom: 2rem;
+        gap: 2rem;
     }
 
     .card img {
-        max-width: 40%;
+        width: 700px;
+        max-width: 50%;
         border-radius: 10px;
     }
     
     .card p {
         max-width: 400px;
     }
+
     /*För text först, sen bild*/
     .reverse {
         flex-direction: row-reverse;
