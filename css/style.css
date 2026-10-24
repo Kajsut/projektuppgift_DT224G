@@ -462,7 +462,25 @@ footer a:hover {
     }
 
 
+    /*KONTAKTA OSS*/
+    .contact-page {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
 
+    .form {
+        min-width: 400px;
+        max-width: 600px;
+    }
+
+
+    .contact-img {
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
 
 
     /*FOOTERN*/
