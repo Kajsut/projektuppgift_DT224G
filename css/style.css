@@ -345,5 +345,15 @@ footer a:hover {
         object-fit: cover;
     }
 
+    /*Storlek på p-elementen*/
+    main p {
+        max-width: 400px;
+    }
+
+    .main-p {
+        margin: 1rem auto 2.5rem;
+    }
+
+
 
 }
