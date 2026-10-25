@@ -141,16 +141,17 @@ function validateForm () {
     const mail = formMail.value.trim();
     const message = formMessage.value.trim();
 
+    //Läser om de har skrivit in något namn
     if (name === ""){
         error.push("Du måste ange ditt namn");
         validate = false;
     }
-
+    //Läser om de har skrivit in någon e-postadress
     if (mail === ""){
         error.push("Du måste ange din e-postadress");
         validate = false;
     }
-
+    //Läser om de har skrivit något meddelande
     if (message === ""){
         error.push("Du måste skriva ett meddelande");
         validate = false;
