@@ -269,6 +269,11 @@ input {
     background-color: var(--button-hover);
 }
 
+/*Hur valideringstexten ser ut*/
+#show-errors {
+    color: #A80000;
+    padding-bottom: 0.5rem;
+}
 
 
 /*FOOTERN*/
@@ -529,11 +534,11 @@ footer a:hover {
         
     }
 
-.form textarea {
-    width: 90%;
-    min-height: 300px;
-    resize: vertical;
-}
+    .form textarea {
+        width: 90%;
+        min-height: 300px;
+        resize: vertical;
+    }
 
     .form {
         min-width: 600px;
