@@ -77,10 +77,12 @@ const pictures = [
 
 function nextPicture () {
 
-    if (nowPic > pictures.length -2) {
+    if (nowPic === pictures.length -1) {
+        /* Om arrayen är på sista bilden, byt till första bilden igen */
         nowPic = 0;
     } else {
-        nowPic++
+        /* Om ej, ta nästkommande bild  */
+        nowPic++;
     }
 
     showNextPicture(nowPic);
