@@ -91,6 +91,13 @@ function nextPicture () {
 
 function previousPicture () {
 
+    if (nowPic === 0 ) {
+        nowPic = pictures.length -1;
+    } else {
+        nowPic--;
+    }
+
+    showNextPicture(nowPic);
 
 }
 
