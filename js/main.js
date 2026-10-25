@@ -19,9 +19,9 @@ menuButton.addEventListener("click", function(){
 /**
  * Bildspelet
 */
-/* Ett objek med array med allt till bildspelet */
 let nowPic = 0;
 
+/* Ett objek med array med allt till bildspelet */
 const pictures = [
     {
         src: "images/work_beehive3.jpg",
@@ -75,6 +75,7 @@ const pictures = [
     },
 ]
 
+/* Om man trycker på nästa-knappen i bildspelet */
 function nextPicture () {
 console.log("Next")
     if (nowPic === pictures.length -1) {
@@ -88,7 +89,7 @@ console.log("Next")
     showNextPicture(nowPic);
 }
 
-
+/* Om man trycker på knappen förgående i bildspelet */
 function previousPicture () {
 console.log("prev")
     if (nowPic === 0 ) {
@@ -103,7 +104,7 @@ console.log("prev")
 
 }
 
-
+/* Skriver ut till hemsidan */
 function showNextPicture (nowPic) {
 console.log("skriver ut")
     slidePic.src = pictures[nowPic].src;
