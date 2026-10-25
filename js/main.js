@@ -59,7 +59,7 @@ const pictures = [
         count: "7/10"
     },
     {
-        src: "images/work-beehive1.jpg",
+        src: "images/work_beehive1.jpg",
         alt: "Biodlare jobbar bland bina",
         count: "8/10"
     },
