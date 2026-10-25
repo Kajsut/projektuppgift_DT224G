@@ -130,6 +130,8 @@ if (nextButton && prevButton) {
 let errors = [];
 
 function validateForm () {
+    //Formuläret skickas ej
+    event.preventDefault();
 
     //Tömmer arrayen
     errors = [];
