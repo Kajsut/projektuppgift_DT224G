@@ -7,7 +7,7 @@ const menuLinks = document.querySelector(".menu");
 const prevButton = document.querySelector(".prev-slide");
 const nextButton = document.querySelector(".next-slide");
 const slidePic = document.querySelector(".slideshow");
-const slideCounter = document.querySelector(".slidecounter")
+const slideCounter = document.querySelector(".slidecounter");
 
 
 /* Öppnar/stänger hamburgarmenyn när man trycker på knappen */
@@ -76,7 +76,7 @@ const pictures = [
 ]
 
 function nextPicture () {
-
+console.log("Next")
     if (nowPic === pictures.length -1) {
         /* Om arrayen är på sista bilden, byt till första bilden igen */
         nowPic = 0;
@@ -90,7 +90,7 @@ function nextPicture () {
 
 
 function previousPicture () {
-
+console.log("prev")
     if (nowPic === 0 ) {
         /* Om arrayen är på första bilden, byt till den sista bilden i arrayen */
         nowPic = pictures.length -1;
@@ -104,9 +104,13 @@ function previousPicture () {
 }
 
 
-function showNextPicture () {
+function showNextPicture (nowPic) {
+console.log("skriver ut")
+    slidePic.src = pictures[nowPic].src;
+    slidePic.alt = pictures[nowPic].alt;
+    slideCounter.innerHTML = `${pictures[nowPic].count}`;
 
-
+    return;
 
 }
 
