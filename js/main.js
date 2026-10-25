@@ -116,5 +116,5 @@ console.log("skriver ut")
 }
 
 /* Lyssnar på sidoknapparna till bildspelet */
-nextButton.addEventListener("klick", nextPicture);
-prevButton.addEventListener("klick", previousPicture);
+nextButton.addEventListener("click", nextPicture);
+prevButton.addEventListener("click", previousPicture);
