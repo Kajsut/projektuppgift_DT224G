@@ -20,6 +20,7 @@ menuButton.addEventListener("click", function(){
  * Bildspelet
 */
 /* Ett objek med array med allt till bildspelet */
+let nowPic = 0;
 
 const pictures = [
     {
@@ -76,6 +77,7 @@ const pictures = [
 
 function nextPicture () {
 
+    if (i)
 
 }
 
