@@ -1,15 +1,15 @@
 "use strict";
-/* Hämtar in knappen och länkarna till hamburgarmenyn */
+// Hämtar in knappen och länkarna till hamburgarmenyn
 const menuButton = document.querySelector(".menu-button");
 const menuLinks = document.querySelector(".menu");
 
-/* Hämtar knappar och element till bildspelet */
+// Hämtar knappar och element till bildspelet
 const prevButton = document.querySelector(".prev-slide");
 const nextButton = document.querySelector(".next-slide");
 const slidePic = document.querySelector(".slideshow");
 const slideCounter = document.querySelector(".slidecounter");
 
-/* Hämtar element från formuläret */
+// Hämtar element från formuläret
 const form = document.querySelector(".form-submit");
 const formName = document.querySelector("#name");
 const formMail = document.querySelector("#email");
@@ -18,7 +18,7 @@ const errorShow = document.querySelector("#show-errors")
 
 
 
-/* Öppnar/stänger hamburgarmenyn när man trycker på knappen */
+// Öppnar/stänger hamburgarmenyn när man trycker på knappen
 menuButton.addEventListener("click", function(){
     menuLinks.classList.toggle("open")
 })
@@ -28,7 +28,7 @@ menuButton.addEventListener("click", function(){
  * Bildspelet
 */
 let nowPic = 0;
-/* Ett objek med array med allt till bildspelet */
+// Ett objek med array med allt till bildspelet
 const pictures = [
     {
         src: "images/work_beehive3.jpg",
@@ -72,28 +72,28 @@ const pictures = [
     }
 ]
 
-/* Om man trycker på nästa-knappen i bildspelet */
+// Om man trycker på nästa-knappen i bildspelet
 function nextPicture () {
 console.log("Next")
     if (nowPic === pictures.length -1) {
-        /* Om arryen är på sista bilden, byt till första bilden igen */
+        // Om arryen är på sista bilden, byt till första bilden igen
         nowPic = 0;
     } else {
-        /* Om ej, ta nästkommande bild  */
+        // Om ej, ta nästkommande bild
         nowPic++;
     }
 
     showNextPicture(nowPic);
 }
 
-/* Om man trycker på knappen förgående i bildspelet */
+// Om man trycker på knappen förgående i bildspelet
 function previousPicture () {
 console.log("prev")
     if (nowPic === 0 ) {
-        /* Om arrayen är på första bilden, byt till den sista bilden i arrayen */
+        // Om arrayen är på första bilden, byt till den sista bilden i arrayen
         nowPic = pictures.length -1;
     } else {
-        /* Om ej, byt till den förra bilden */
+        // Om ej, byt till den förra bilden
         nowPic--;
     }
 
@@ -101,10 +101,10 @@ console.log("prev")
 
 }
 
-/* Skriver ut till konsolen */
+// Skriver ut till konsolen
 function showNextPicture (nowPic) {
 console.log("skriver ut")
-    /* Skriver ut bild och alt-text till konsolen*/
+    // Skriver ut bild och alt-text till konsolen
     slidePic.src = pictures[nowPic].src;
     slidePic.alt = pictures[nowPic].alt;
 
