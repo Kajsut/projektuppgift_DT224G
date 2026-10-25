@@ -92,8 +92,10 @@ function nextPicture () {
 function previousPicture () {
 
     if (nowPic === 0 ) {
+        /* Om arrayen är på första bilden, byt till den sista bilden i arrayen */
         nowPic = pictures.length -1;
     } else {
+        /* Om ej, byt till den förra bilden */
         nowPic--;
     }
 
@@ -103,6 +105,7 @@ function previousPicture () {
 
 
 function showNextPicture () {
+
 
 
 }
