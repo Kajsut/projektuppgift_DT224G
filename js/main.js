@@ -118,3 +118,21 @@ if (nextButton && prevButton) {
     nextButton.addEventListener("click", nextPicture);
     prevButton.addEventListener("click", previousPicture);
 }
+
+
+
+/**
+* Formuläret
+*/
+
+
+
+
+
+
+
+/* Lyssnar på skicka-knappen, men bara ifall det finns den knappen
+på just den öppna sidan */
+if (form) {
+    form.addEventListener("click", validateForm);
+}
