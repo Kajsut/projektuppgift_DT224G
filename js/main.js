@@ -185,5 +185,7 @@ function showErrors (errors){
 /* Lyssnar på skicka-knappen, men bara ifall det finns den knappen
 på just den öppna sidan */
 if (form) {
-    form.addEventListener("click", validateForm);
+    
 }
+
+form.addEventListener("submit", validateForm);
