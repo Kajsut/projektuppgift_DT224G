@@ -124,7 +124,20 @@ if (nextButton && prevButton) {
 /**
 * Formuläret
 */
+//Array som används för eventuella felmeddelanden
+let errors = [];
 
+function validateForm () {
+
+    //Tömmer arrayen
+    errors = [];
+    
+    //Variabel som håller koll på eventuella fel
+    let validate = true;
+
+
+
+}
 
 
 
