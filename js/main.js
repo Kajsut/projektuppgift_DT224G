@@ -41,27 +41,33 @@ const pictures = [
         src: "images/honeycomb4.jpg",
         alt: "Biodlaren jobbar med honungskakorna",
         count: "4/10"
-    },{
+    },
+    {
         src: "images/flower2.jpg",
         alt: "Ett bi på en ringblomma",
         count: "5/10"
-    },{
+    },
+    {
         src: "images/work_write.jpg",
         alt: "Biodlare som antecknar vid bikuporna",
         count: "6/10"
-    },{
+    },
+    {
         src: "images/honeycomb3.jpg",
         alt: "En honungskaka med bin på",
         count: "7/10"
-    },{
+    },
+    {
         src: "images/work-beehive1.jpg",
         alt: "Biodlare jobbar bland bina",
         count: "8/10"
-    },{
+    },
+    {
         src: "images/honeycomb1.jpg",
         alt: "En honungskaka på en bikupa med bin på",
         count: "9/10"
-    },{
+    },
+    {
         src: "images/bees.jpg",
         alt: "Bin som flyger in i en bikupa",
         count: "10/10"
@@ -79,6 +85,11 @@ function previousPicture () {
 
 }
 
+
+function showNextPicture () {
+
+
+}
 
 /* Lyssnar på sidoknapparna till bildspelet */
 nextButton.addEventListener("klick", nextPicture);
