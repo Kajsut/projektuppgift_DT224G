@@ -129,7 +129,7 @@ if (nextButton && prevButton) {
 //Array som används för eventuella felmeddelanden
 let errors = [];
 
-function validateForm () {
+function validateForm (event) { 
     //Formuläret skickas ej
     event.preventDefault();
 
@@ -164,15 +164,15 @@ function validateForm () {
 }
 
 
-function showErrors (){
+function showErrors (errors){
 
     errorShow = "";
 
-    if (error.length < 0 ) {
-        for(let i = 0; i < error.length; i++){
-            const errors = document.createElement("li");
-            errors.innerHTML = `error[i]`
-            errorShow.appendChild(errors);
+    if (errors.length < 0 ) {
+        for(let i = 0; i < errors.length; i++){
+            const errorsLi = document.createElement("li");
+            errorsLi.innerHTML = `error[i]`
+            errorShow.appendChild(errorsLi);
         }
     }
 }
