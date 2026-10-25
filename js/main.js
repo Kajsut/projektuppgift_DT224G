@@ -107,6 +107,9 @@ console.log("skriver ut")
 
 }
 
-/* Lyssnar på sidoknapparna till bildspelet */
-nextButton.addEventListener("click", nextPicture);
-prevButton.addEventListener("click", previousPicture);
+/* Lyssnar på sidoknapparna till bildspelet, men bara ifall knapparna
+finns någonstanns på den öppna sidan */
+if (nextButton && prevButton) {
+    nextButton.addEventListener("click", nextPicture);
+    prevButton.addEventListener("click", previousPicture);
+}
