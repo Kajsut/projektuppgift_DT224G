@@ -139,6 +139,13 @@ function validateForm () {
     const name = formName.value.trim();
     const mail = formMail.value.trim();
 
+    if (name === ""){
+        validate = false;
+    }
+
+    if (mail === ""){
+        validate = false;
+    }
 }
 
 
