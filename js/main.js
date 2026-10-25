@@ -77,8 +77,13 @@ const pictures = [
 
 function nextPicture () {
 
-    if (i)
+    if (nowPic > pictures.length -2) {
+        nowPic = 0;
+    } else {
+        nowPic++
+    }
 
+    showNextPicture(nowPic);
 }
 
 
