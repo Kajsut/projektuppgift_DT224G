@@ -69,7 +69,7 @@ const pictures = [
 function nextPicture () {
 console.log("Next")
     if (nowPic === pictures.length -1) {
-        /* Om arrayen är på sista bilden, byt till första bilden igen */
+        /* Om arryen är på sista bilden, byt till första bilden igen */
         nowPic = 0;
     } else {
         /* Om ej, ta nästkommande bild  */
@@ -94,16 +94,16 @@ console.log("prev")
 
 }
 
-/* Skriver ut till hemsidan */
+/* Skriver ut till konsolen */
 function showNextPicture (nowPic) {
 console.log("skriver ut")
+    /* Skriver ut bild och alt-text till konsolen*/
     slidePic.src = pictures[nowPic].src;
     slidePic.alt = pictures[nowPic].alt;
 
+    /* Räknar och skriver ut vilken bild det är som visas,
+    och hur många som finns totalt */
     slideCounter.innerHTML = `${nowPic+1}/${pictures.length}`;
-
-
-    return;
 
 }
 
