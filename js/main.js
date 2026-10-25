@@ -101,10 +101,10 @@ console.log("prev")
 
 }
 
-// Skriver ut till konsolen
+// Skriver ut till skärmen
 function showNextPicture (nowPic) {
 console.log("skriver ut")
-    // Skriver ut bild och alt-text till konsolen
+    // Skriver ut bild och alt-text till skärmen
     slidePic.src = pictures[nowPic].src;
     slidePic.alt = pictures[nowPic].alt;
 
@@ -187,7 +187,6 @@ function showErrors (errors, ){
 /* Lyssnar på skicka-knappen, men bara ifall det finns den knappen
 på just den öppna sidan */
 if (form) {
-    
+    form.addEventListener("submit", validateForm);
 }
 
-form.addEventListener("submit", validateForm);
