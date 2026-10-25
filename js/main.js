@@ -14,7 +14,7 @@ const form = document.querySelector(".form-submit");
 const formName = document.querySelector("#name");
 const formMail = document.querySelector("#email");
 const formMessage = document.querySelector("#message");
-const errorShow = document.querySelector("#show-error")
+const errorShow = document.querySelector("#show-errors")
 
 
 
@@ -161,19 +161,21 @@ function validateForm (event) {
         validate = false;
     }
 
-    showErrors();
+    console.log(errors)
+    showErrors(errors);
 }
 
 
-function showErrors (errors){
+function showErrors (errors, ){
     console.log("showErrors");
-    
-    errorShow = "";
+   
+    errorShow.innerHTML = "";
+  
 
-    if (errors.length < 0 ) {
+    if (errors.length > 0 ) {
         for(let i = 0; i < errors.length; i++){
             const errorsLi = document.createElement("li");
-            errorsLi.innerHTML = `error[i]`
+            errorsLi.innerHTML = errors[i];
             errorShow.appendChild(errorsLi);
         }
     }
