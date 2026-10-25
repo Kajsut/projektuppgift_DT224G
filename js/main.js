@@ -14,6 +14,7 @@ const form = document.querySelector("#form");
 const formName = document.querySelector("#name");
 const formMail = document.querySelector("#email");
 const formMessage = document.querySelector("#message");
+const errorShow = document.querySelector("#show-error")
 
 
 
@@ -156,9 +157,23 @@ function validateForm () {
         error.push("Du måste skriva ett meddelande");
         validate = false;
     }
+
+    showErrors();
 }
 
 
+function showErrors (){
+
+    errorShow = "";
+
+    if (error.length < 0 ) {
+        for(let i = 0; i < error.length; i++){
+            const errors = document.createElement("li");
+            errors.innerHTML = `error[i]`
+            errorShow.appendChild(errors);
+        }
+    }
+}
 
 
 
