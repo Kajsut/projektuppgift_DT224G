@@ -13,6 +13,7 @@ const slideCounter = document.querySelector(".slidecounter");
 const form = document.querySelector("#form");
 const formName = document.querySelector("#name");
 const formMail = document.querySelector("#email");
+const formMessage = document.querySelector("#message");
 
 
 
@@ -138,12 +139,17 @@ function validateForm () {
     //Läser in värden från formulären samt tar bort eventuella mellanslag
     const name = formName.value.trim();
     const mail = formMail.value.trim();
+    const message = formMessage.value.trim();
 
     if (name === ""){
         validate = false;
     }
 
     if (mail === ""){
+        validate = false;
+    }
+
+    if (message === ""){
         validate = false;
     }
 }
