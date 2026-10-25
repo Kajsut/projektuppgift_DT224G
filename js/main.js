@@ -9,6 +9,12 @@ const nextButton = document.querySelector(".next-slide");
 const slidePic = document.querySelector(".slideshow");
 const slideCounter = document.querySelector(".slidecounter");
 
+/* Hämtar element från formuläret */
+const form = document.querySelector("#form");
+const name = document.querySelector("#name");
+const mail = document.querySelector("#email");
+
+
 
 /* Öppnar/stänger hamburgarmenyn när man trycker på knappen */
 menuButton.addEventListener("click", function(){
@@ -20,7 +26,6 @@ menuButton.addEventListener("click", function(){
  * Bildspelet
 */
 let nowPic = 0;
-
 /* Ett objek med array med allt till bildspelet */
 const pictures = [
     {
