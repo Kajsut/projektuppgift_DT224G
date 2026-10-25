@@ -21,6 +21,14 @@ menuButton.addEventListener("click", function(){
 */
 /* Ett objek med array med allt till bildspelet */
 
+const pictures = [
+    {
+        src: "images/work_beehive3.jpg",
+        alt: "Biodlaren Sebastian som tittar på en honungskaka",
+        count: "1/10"
+    },
+]
+
 function nextPicture () {
 
 
@@ -29,10 +37,10 @@ function nextPicture () {
 
 function previousPicture () {
 
-    
+
 }
 
 
-/* */
+/* Lyssnar på sidoknapparna till bildspelet */
 nextButton.addEventListener("klick", nextPicture);
 prevButton.addEventListener("klick", previousPicture);
