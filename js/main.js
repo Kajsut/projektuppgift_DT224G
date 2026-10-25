@@ -14,3 +14,25 @@ const slideCounter = document.querySelector(".slidecounter")
 menuButton.addEventListener("click", function(){
     menuLinks.classList.toggle("open")
 })
+
+
+/**
+ * Bildspelet
+*/
+/* Ett objek med array med allt till bildspelet */
+
+function nextPicture () {
+
+
+}
+
+
+function previousPicture () {
+
+    
+}
+
+
+/* */
+nextButton.addEventListener("klick", nextPicture);
+prevButton.addEventListener("klick", previousPicture);
