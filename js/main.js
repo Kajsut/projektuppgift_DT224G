@@ -130,6 +130,7 @@ if (nextButton && prevButton) {
 let errors = [];
 
 function validateForm (event) { 
+    console.log("ValidateForm")
     //Formuläret skickas ej
     event.preventDefault();
 
@@ -165,7 +166,8 @@ function validateForm (event) {
 
 
 function showErrors (errors){
-
+    console.log("showErrors");
+    
     errorShow = "";
 
     if (errors.length < 0 ) {
