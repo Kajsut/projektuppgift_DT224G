@@ -14,7 +14,8 @@ const form = document.querySelector(".form-submit");
 const formName = document.querySelector("#name");
 const formMail = document.querySelector("#email");
 const formMessage = document.querySelector("#message");
-const errorShow = document.querySelector("#show-errors")
+const errorShow = document.querySelector("#show-errors");
+const thanks = document.querySelector(".thanks");
 
 
 
@@ -165,9 +166,10 @@ function validateForm (event) {
     showErrors(errors);
 
 
-    // Skicka formuläret till netlify om det inte finns några fel
+    // Skicka formuläret till netlify om det inte finns några fel ****************************
     if (validate) {
         form.submit();
+        thanks.classList.toggle("open");
     }
 }
 

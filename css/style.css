@@ -275,6 +275,15 @@ input {
     padding-bottom: 0.5rem;
 }
 
+/* Hur tack-meddelandet ser ut*/
+.thanks {
+    display: none;
+}
+
+.thanks.open {
+    display: block;
+    justify-self: center;
+}
 
 /*FOOTERN*/
 /*Väljer bakgrunds- och textfärg på footern*/
