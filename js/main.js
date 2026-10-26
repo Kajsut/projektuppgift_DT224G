@@ -75,7 +75,7 @@ const pictures = [
 
 // Om man trycker på nästa-knappen i bildspelet
 function nextPicture () {
-console.log("Next")
+
     if (nowPic === pictures.length -1) {
         // Om arryen är på sista bilden, byt till första bilden igen
         nowPic = 0;
@@ -89,7 +89,7 @@ console.log("Next")
 
 // Om man trycker på knappen förgående i bildspelet
 function previousPicture () {
-console.log("prev")
+
     if (nowPic === 0 ) {
         // Om arrayen är på första bilden, byt till den sista bilden i arrayen
         nowPic = pictures.length -1;
@@ -104,7 +104,7 @@ console.log("prev")
 
 // Skriver ut till skärmen
 function showNextPicture (nowPic) {
-console.log("skriver ut")
+
     // Skriver ut bild och alt-text till skärmen
     slidePic.src = pictures[nowPic].src;
     slidePic.alt = pictures[nowPic].alt;
@@ -127,14 +127,10 @@ if (nextButton && prevButton) {
 /**
 * Formuläret
 */
-//Array som används för eventuella felmeddelanden
-let errors = [];
-
 function validateForm (event) { 
-    console.log("ValidateForm")
 
-    //Tömmer arrayen
-    errors = [];
+    //Array som används för eventuella felmeddelande
+    let errors = [];
     
     //Variabel som håller koll på eventuella fel
     let validate = true;
@@ -170,12 +166,11 @@ function validateForm (event) {
 }
 
 
-function showErrors (errors, ){
-    console.log("showErrors");
-   
+function showErrors (errors){
+    //Tömmer errorShow
     errorShow.innerHTML = "";
   
-
+    //Läser ut vilka fel det är och skriver ut det i en punktlista
     if (errors.length > 0 ) {
         for(let i = 0; i < errors.length; i++){
             const errorsLi = document.createElement("li");
