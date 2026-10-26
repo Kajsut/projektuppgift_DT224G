@@ -169,7 +169,7 @@ function validateForm (event) {
     // Skicka formuläret till netlify om det inte finns några fel ****************************
     if (validate) {
         form.submit();
-        thanks.classList.toggle("open");
+       // thanks.classList.toggle("open");
     }
 }
 
