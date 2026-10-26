@@ -161,7 +161,7 @@ function validateForm (event) {
         validate = false;
     }
 
-    console.log(errors)
+    // Skriver ut eventuella felmeddelanden
     showErrors(errors);
 }
 
@@ -180,6 +180,8 @@ function showErrors (errors, ){
         }
     }
 }
+
+
 
 
 
