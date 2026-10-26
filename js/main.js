@@ -21,14 +21,16 @@ const thanks = document.querySelector(".thanks");
 
 // Öppnar/stänger hamburgarmenyn när man trycker på knappen
 menuButton.addEventListener("click", function(){
-    menuLinks.classList.toggle("open")
+    menuLinks.classList.toggle("open");
 })
 
 
 /**
  * Bildspelet
 */
+//Vilket nummer bildspelet är på
 let nowPic = 0;
+
 // Ett objek med array med allt till bildspelet
 const pictures = [
     {
@@ -71,7 +73,7 @@ const pictures = [
         src: "images/bees.jpg",
         alt: "Bin som flyger in i en bikupa"
     }
-]
+];
 
 // Om man trycker på nästa-knappen i bildspelet
 function nextPicture () {
@@ -158,9 +160,9 @@ function validateForm (event) {
 
     // Skriver ut eventuella felmeddelanden
     showErrors(errors);
-
+ 
+    //Formuläret skickas ej om valideringen är fel
     if (!validate) {
-        //Formuläret skickas ej
         event.preventDefault();
     }
 }
