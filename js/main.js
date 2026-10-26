@@ -18,7 +18,6 @@ const errorShow = document.querySelector("#show-errors");
 const thanks = document.querySelector(".thanks");
 
 
-
 // Öppnar/stänger hamburgarmenyn när man trycker på knappen
 menuButton.addEventListener("click", function(){
     menuLinks.classList.toggle("open");
@@ -181,10 +180,6 @@ function showErrors (errors){
         }
     }
 }
-
-
-
-
 
 
 /* Lyssnar på skicka-knappen, men bara ifall det finns den knappen
