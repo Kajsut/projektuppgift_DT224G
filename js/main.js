@@ -163,6 +163,12 @@ function validateForm (event) {
 
     // Skriver ut eventuella felmeddelanden
     showErrors(errors);
+
+
+    // Skicka formuläret till netlify om det inte finns några fel
+    if (errors.length === 0) {
+        form.submit();
+    }
 }
 
 
