@@ -132,8 +132,6 @@ let errors = [];
 
 function validateForm (event) { 
     console.log("ValidateForm")
-    //Formuläret skickas ej
-    event.preventDefault();
 
     //Tömmer arrayen
     errors = [];
@@ -165,11 +163,9 @@ function validateForm (event) {
     // Skriver ut eventuella felmeddelanden
     showErrors(errors);
 
-
-    // Skicka formuläret till netlify om det inte finns några fel ****************************
-    if (validate) {
-        form.submit();
-       // thanks.classList.toggle("open");
+    if (!validate) {
+        //Formuläret skickas ej
+        event.preventDefault();
     }
 }
 
