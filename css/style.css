@@ -443,7 +443,7 @@ footer a:hover {
     /*Hur bilden ser ut*/
     .slideshow {
         height: 700px;
-         border: 2px solid var(--background-green);
+  
     }
 
     /*Skapar en grid för att kunna förflytta knapparna rätt*/
